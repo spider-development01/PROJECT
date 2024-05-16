@@ -192,6 +192,8 @@ h4{
  .team{
        display: flex;
    flex-direction: row;
+   justify-content: center; 
+   align-items: center; 
  }
  
 
@@ -206,11 +208,19 @@ h4{
     .member{
         margin-left: 0px;
     }
+
+    .member-1{
+      margin-left: 0px;
+  }
  }
 
 .member{
     margin-left: 120px;
     text-align: center;
+}
+
+.member-1{
+  text-align: center;
 }
 
 h2{
